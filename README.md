@@ -1,4 +1,4 @@
-# Integrated-MOF-and-PVSA-Process-Design-Descriptor-Optimization
+# Integrated-MOF-and-PVSA-Process-Design
 
 This saves the Supporting Information (in Excel) for the AIChE Journal Papers entitled 
 "Integrated-MOF-and-PVSA-Process-Design-Descriptor-Optimization" and 
