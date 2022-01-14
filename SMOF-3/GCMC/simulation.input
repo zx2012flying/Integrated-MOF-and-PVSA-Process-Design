@@ -1,0 +1,28 @@
+SimulationType                MonteCarlo
+NumberOfCycles                100000
+NumberOfInitializationCycles  50000
+NumberOfEquilibrationCycles   50000
+PrintEvery                    10000
+RestartFile                   no
+
+ChargeMethod                  Ewald
+Forcefield                    ForceFieldPAPE
+EwaldPrecision                1e-6
+CutOff                        12.0
+UseChargesFromCIFFile         yes
+
+Framework  0
+FrameworkName  lcy_v1-6c_Fe_1-YARYOF_2
+UnitCells  3 3 3
+HeliumVoidFraction  0.33898
+ExternalTemperature  300.0
+ExternalPressure  1013  10132  101325  202650  506625
+
+Component 0 MoleculeName              propene
+            MoleculeDefinition        ExampleDefinitions
+            FugacityCoefficient       1.0
+            TranslationProbability    1.0
+            RotationProbability       1.0
+            ReinsertionProbability    1.0
+            SwapProbability           1.0
+            CreateNumberOfMolecules   0
